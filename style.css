@@ -1,0 +1,3397 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: black;
+  background:rgba(249, 247, 244, 1);;
+}
+
+.contener{
+  width: 1250px;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+/*Секция шапка*/
+main{
+  color: white
+}
+header{
+ padding-top: 50px;
+  width: 1168px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header a .your_pictr{
+  position: relative;
+  top: -23px;
+}
+  .img-b{
+  background: url(./img/header-img.png) no-repeat center center;
+  background-size: contain;
+  width: 1920px;
+  height: 830px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 468px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -50.5px;
+  left: 15px;
+}
+
+header label a{
+font-size: 20px;
+font-weight: 400;
+position: relative;
+left: 1014.5px;
+top: -77px;
+color: white;
+}
+
+header nav ul li a{
+  color: white;
+}
+
+header nav ul li a:hover{
+ border-bottom: 1px solid white;
+}
+
+main h1{
+  font-weight: 700;
+  font-size: 98px;
+  width: 770px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 109%;
+  letter-spacing: 2%;
+  position: relative;
+  top: 125px;
+}
+main p{
+  width: 562px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 142%;
+  position: relative;
+  top: 170px;
+}
+.img-b button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 220px;
+  width: 120px;  
+  height: 35px;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+  line-height: 24px;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+.img-b button:hover{
+  background: rgba(239, 165, 1, 1);
+}
+.img-b button:active{
+  background: rgba(248, 230, 190, 1);
+}
+
+@media (max-width: 1920px) {
+  main{
+  color: white;
+  
+}
+.img-b{
+  background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0)), url(./img/94d2042d7755f64b39808bc841957a9607d58659.png)  no-repeat center center;
+  background-size: cover;
+  width: 1024px;
+  height: 831px;
+}
+
+header{
+  padding-top: 30px;
+  width: 800px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+ right: 55px;
+ top: 20px;
+}
+.list{
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 108px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: auto auto;
+  position: relative;
+  top: -5px;
+ left: -95px;
+}
+#create_tour{
+position: relative;
+left: -20px;
+}
+#Otzav{
+position: relative;
+left: -40px;
+}
+#history{
+position: relative;
+left: -60px;
+}
+header label a{
+font-size: 20px;
+color: rgb(255, 255, 255);
+position: relative;
+left: 756px;
+}
+header .list nav ul li a{
+color: white;
+line-height: 142%;
+}
+header .list nav ul li a:hover{
+   border-bottom: 1px solid white;
+}
+main h1{
+  font-weight: 700;
+  font-size: 99px;
+  width: 914px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 109%;
+  position: relative;
+ left: -3px;
+ top: 140px;
+}
+main p{
+  width: 100%;
+  max-width: 402px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 190px;
+ 
+}
+main button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  
+  width: 120px;  
+  height: 35px;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+  line-height: 24px;
+  transition: all 300ms ease;
+}
+.img-b button:hover{
+  background: rgba(239, 165, 1, 1);
+}
+.img-b button:active{
+  background: rgba(248, 230, 190, 1);
+}
+
+}
+@media (max-width: 1324px){
+  main{
+  color: white;
+}
+  .img-b{
+  background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0)), url(./img/94d2042d7755f64b39808bc841957a9607d58659.png) no-repeat center center;
+  background-size: cover;
+  height: 488px;
+  width: 360px;
+}
+header{
+  width: 320px;
+  height: 88px;
+  margin: auto auto;
+  
+}
+header a img{
+height: 23px;
+max-width:133px ;
+width: 100%;
+margin-left: 55px;
+margin-top: 6px;
+cursor: default;
+}
+
+header label a{
+  width: 124px;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  left: 250px;
+  color: white;
+  cursor: default;
+  margin-top: 28px;
+cursor: default;
+}
+.list{
+  display: none;
+}
+.img-b h1{
+  font-weight: 700;
+  font-size: 35px;
+  width: 360px;
+  height: 114px;
+  text-align: center;
+  margin: auto auto;
+  position: relative;
+  top: 23px;
+  left: -1px;
+}
+.img-b p{
+  width: 310px;
+  height: 69px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  margin: auto auto;
+  position: relative;
+  top: 63px;
+}
+.img-b button{
+  display: block;
+  margin: auto auto;
+  width: 114px;  
+  height: 33px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  line-height: 24px;
+  position: relative;
+  top: 102px;
+  cursor: default;
+}
+.img-b button:hover{
+  background: white;
+}
+.img-b button:active{
+  background: rgba(248, 230, 190, 1);
+}
+}
+
+/*Секция с картинками*/
+.pictr{
+  color: black;
+  width: 1170px;
+  height: 1334px;
+  margin: auto auto;
+  margin-top: 140px;
+}
+
+.pictr .menu h2{
+  font-weight: 700;
+  font-size: 59px;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.pictr .menu nav ul {
+list-style: none;
+display: flex;
+justify-content: space-between;
+width: 700px;
+height: 34px;
+margin: auto auto;
+padding-bottom:100px;
+}
+
+.pictr .menu nav ul li a {
+  color: black;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.pictr .menu ul li a:hover{
+  border-bottom: 2px solid black;
+}
+
+.pictr .menu ul li a:active{
+  color: rgba(239, 165, 1, 1);
+}
+.pictr .menu ul li a:active{
+ color: rgba(239, 165, 1, 1);
+ border-bottom: 2px solid rgba(239, 165, 1, 1);
+}
+
+/*часть с картинками*/
+.line1, .line2{
+  display: flex;
+  justify-content: space-between;
+}
+.line1{
+    margin-bottom: 30px;
+}
+/* карточки */
+.tours-1, .tours-2, .tours-3, .tours-4, .tours-5, .tours-6 {
+    width: 400px;
+    height: 531px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.tours-1, .tours-2, .tours-4, .tours-5{
+  margin-right: 30px;
+}
+.tours-1 img, .tours-2 img, .tours-3 img, .tours-4 img, .tours-5 img, .tours-6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    display: block;
+    transition: transform 300ms ease;
+    cursor: pointer;
+}
+/* темный градиент на картинках */
+.tours-1::after, .tours-2::after, .tours-3::after,.tours-4::after, .tours-5::after, .tours-6::after  {  
+   position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: linear-gradient(360deg, 
+  rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+/* анимация*/
+.tours-1:hover img, .tours-2:hover img, .tours-3:hover img, .tours-4:hover img, .tours-5:hover img, .tours-6:hover img {
+    transform: scale(1.2);
+}
+/* надписи */
+.tours-1 .text, .tours-2 .text, .tours-3 .text, .tours-4 .text, .tours-5 .text, .tours-6 .text {
+    position: absolute;
+    top: 50px;
+    left: 43px;
+    width: 230px;
+    color: white;
+    z-index: 2;
+}
+.tours-1 .text h3, .tours-2 .text h3, .tours-3 .text h3, .tours-4 .text h3, .tours-5 .text h3, .tours-6 .text h3 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 122%;
+    margin: 0;
+}
+.tours-1 .text p, .tours-2 .text p, .tours-3 .text p, .tours-4 .text p, .tours-5 .text p, .tours-6 .text p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 16px;
+    line-height: 142%;
+}
+/* кнопка*/
+.tours-1 button, .tours-2 button, .tours-3 button, .tours-4 button, .tours-5 button, .tours-6 button {
+    position: absolute;
+    bottom: 40px;
+    left: 29px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    width: 199px;
+    height: 42px;
+    color: white;
+    padding: 25px 20px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+}
+.tours-1 button img, .tours-2 button img, .tours-3 button img, .tours-4 button img, .tours-5 button img, .tours-6 button img {
+    width: 22px;
+    height: 15px;
+    margin-left: 15px;
+    transform: scale(1);
+}
+.tours-1:hover button, .tours-2:hover button, .tours-3:hover button, .tours-4:hover button, .tours-5:hover button, .tours-6:hover button {
+    background: #286562;
+}
+.tours-1:hover button img, .tours-2:hover button img, .tours-3:hover button img, 
+.tours-4:hover button img, .tours-5:hover button img, .tours-6:hover button img {
+    transform: scale(1);
+}
+.tours-1 button:active, .tours-2 button:active, .tours-3 button:active, .tours-4 button:active, .tours-5 button:active, .tours-6 button:active {
+    background: #EFA501;
+}
+
+ .list_2-0{
+    display: none;
+  }
+@media (max-width: 1920px){
+  .list_2-0{
+    display: none;
+  }
+    /*Заголовок и меню*/
+.pictr{
+  color: black;
+  width: 1024px;
+  height: 1871px;
+  margin: auto auto;
+  margin-top: 140px;
+}
+.menu{
+  margin-top: -5px;
+}
+.pictr h2{
+  width: 473px;
+  font-weight: 700;
+  font-size: 59px;
+  text-align: center;
+  margin: auto auto;
+  padding-bottom: 35px;
+}
+
+.pictr .menu nav ul {
+ list-style: none;
+ display: flex;
+ justify-content: space-between;
+ width: 700px;
+ margin: auto auto;
+ padding-bottom:90px;
+}
+
+.pictr .menu ul li a {
+  color: black;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.pictr .menu ul li a:hover{
+  border-bottom: 2px solid black;
+}
+.pictr .menu ul li a:active{
+color: rgba(239, 165, 1, 1);
+}
+.pictr .menu ul li a:active{
+ color: rgba(239, 165, 1, 1);
+ border-bottom: 2px solid rgba(239, 165, 1, 1);
+}
+  /*Расположение картинок*/
+.maket_picture {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  width: 100%;
+  max-width: 918px; 
+  margin: 0 auto; 
+  margin-top: 10px;
+}
+.line1, .line2 {
+  display: contents; 
+}
+.tours-1, .tours-2, .tours-3, .tours-4, .tours-5, .tours-6 {
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.tours-1 img, .tours-2 img, .tours-3 img,.tours-4 img, .tours-5 img, .tours-6 img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+/* надписи */
+.tours-1 .text, .tours-2 .text, .tours-3 .text, .tours-4 .text, .tours-5 .text, .tours-6 .text {
+    position: absolute;
+    top: 50px;
+    left: 53px;
+    width: 350px;
+    color: white;
+    z-index: 2;
+}
+.tours-1 .text h3, .tours-2 .text h3, .tours-3 .text h3, .tours-4 .text h3, .tours-5 .text h3, .tours-6 .text h3 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 122%;
+    margin: 0;
+}
+.tours-1 .text p, .tours-2 .text p, .tours-3 .text p, .tours-4 .text p, .tours-5 .text p, .tours-6 .text p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 16px;
+    line-height: 142%;
+}
+
+/* кнопка*/
+.tours-1 button, .tours-2 button, .tours-3 button, .tours-4 button, .tours-5 button, .tours-6 button {
+    position: absolute;
+    bottom: 38px;
+    left: 30px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 23px;
+    font-weight: 700;
+    width: 199px;
+    height: 42px;
+    color: white;
+    padding: 25px 20px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    line-height: 122%;
+    transition: background-color 300ms ease;
+}
+
+.tours-1 button img, .tours-2 button img, .tours-3 button img, .tours-4 button img, .tours-5 button img, .tours-6 button img {
+    width: 22px;
+    height: 15px;
+    margin-left: 15px;
+}
+.tours-1:hover button, .tours-2:hover button, .tours-3:hover button, .tours-4:hover button, .tours-5:hover button, .tours-6:hover button {
+    background: #286562;
+}
+.tours-1 button:active, .tours-2 button:active, .tours-3 button:active, .tours-4 button:active, .tours-5 button:active, .tours-6 button:active {
+    background: #EFA501;
+}
+
+}
+@media (max-width: 1324px){
+   .list_2-0{
+    display: unset;
+  }
+  .list_2{
+    display: none;
+  }
+  /*Заголовок и меню*/
+  .pictr{
+  color: black;
+  width: 360px;
+  height: 2172px;
+  margin: auto auto;
+  margin-top: 75px;
+  position: relative;
+  right: 8px;
+}
+.menu{
+  width: 360px;
+  margin: auto auto;
+  position: relative;
+  left: 10px;
+}
+.pictr .menu h2{
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 31px;
+  position: relative;
+  left: -60px;
+  line-height: 112%;
+}
+.pictr .menu_1 ul  {
+list-style: none;
+width: 360px;
+display: flex;
+position: relative;
+gap: 10px;
+left: 50px;
+padding-bottom: 15px;
+}
+.pictr .menu_1 ul li a{
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: default;
+}
+.pictr .menu_2 ul {
+list-style: none;
+display: flex;
+gap: 10px;
+position: relative;
+left: 90px;
+padding-bottom: 50px;
+}
+.pictr .menu_2 ul li a{
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: default;
+}
+.pictr .menu_1 ul li a:hover{
+  border-bottom: none;
+}
+.pictr .menu_2 ul li a:hover{
+  border-bottom: none;
+}
+.pictr .menu_1 ul li a:active{
+color: rgba(239, 165, 1, 1);
+  border-bottom: 2px solid rgba(239, 165, 1, 1);
+}
+.pictr .menu_2 ul li a:active{
+color: rgba(239, 165, 1, 1);
+border-bottom: 2px solid rgba(239, 165, 1, 1);
+}
+/*Расположение картинок*/
+  .maket_picture {
+  display: grid;
+  grid-template-columns:  1fr;
+  gap: 17px;
+  width: 100%;
+  max-width: 318px; 
+  margin: auto auto; 
+  position: relative;
+  left: 8px;
+}
+.line1, .line2 {
+  display: contents; 
+
+}
+.tours-1, .tours-2, .tours-3, .tours-4, .tours-5, .tours-6 {
+  border: 1px solid #ddd;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 318px;
+  border-radius: 20px;
+ 
+}
+.tours-1 img, .tours-2 img, .tours-3 img,.tours-4 img, .tours-5 img, .tours-6 img {
+  width: 360px;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+  cursor: default;
+}
+
+.tours-1::after, .tours-2::after, .tours-3::after,.tours-4::after, .tours-5::after, .tours-6::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: linear-gradient(360deg, 
+  rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+.tours-1:hover img, .tours-2:hover img, .tours-3:hover img, .tours-4:hover img, .tours-5:hover img, .tours-6:hover img {
+    transform: none;
+}
+
+/*Надписи на картинках*/
+.tours-1 .text, .tours-2 .text, .tours-3 .text, .tours-4 .text, .tours-5 .text, .tours-6 .text {
+    position: absolute;
+    top: 25px;
+    left: 29px;
+    width: 268px;
+    color: white;
+    z-index: 2;
+}
+.tours-1 .text h3, .tours-2 .text h3, .tours-3 .text h3, .tours-4 .text h3, .tours-5 .text h3, .tours-6 .text h3 {
+    font-size: 24.5px;
+    font-weight: 700;
+    line-height: 122%;
+    margin: 0;
+}
+
+.tours-1 .text p, .tours-2 .text p, .tours-3 .text p, .tours-4 .text p, .tours-5 .text p, .tours-6 .text p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 13px;
+    line-height: 142%;
+    margin-left: -2px;
+    
+}
+/* кнопка*/
+.tours-1 button, .tours-2 button, .tours-3 button, .tours-4 button, .tours-5 button, .tours-6 button {
+    position: absolute;
+    bottom: 17.6px;
+    left: 8px;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 15.2px;
+    font-weight: 700;
+    width: 153px;
+    color: white;
+    padding: 7px 10px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+    cursor: default;
+}
+.tours-1 button img, .tours-2 button img, .tours-3 button img, .tours-4 button img, .tours-5 button img, .tours-6 button img {
+    width: 22px;
+    height: 15px;
+    margin-left: 15px;
+}
+.tours-1:hover button, .tours-2:hover button, .tours-3:hover button, .tours-4:hover button, .tours-5:hover button, .tours-6:hover button {
+    background: none;
+}
+}
+
+/*Секция собери свой тур*/
+form{
+  width: 1170px;
+  height: 986px;
+  margin: auto auto;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 50px;
+}
+.form .zagolovok{
+  width: 458px;
+  height: 159px;
+  text-align: center;
+  margin: auto auto;
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+.form h2{
+  font-size: 59px;
+  font-weight: 700;
+}
+.form p{
+width: 408px;
+color: rgba(166, 166, 166, 1);
+font-size: 20px;
+font-weight: 400;
+padding-top: 35px;
+line-height: 142%;
+margin-left: 25px;
+}
+
+/*Подразделение на первый див: Имя и Направление*/
+.flex .string-1{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 1030px;
+  height: 104px;
+  gap: 30px;
+  padding-left: 70px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.flex .string-1 div input{
+  width: 478px;
+  height: 68px;
+  background: rgba(249, 247, 244, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  outline: none;
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.flex .string-1 input:hover{
+  background: rgba(244, 240, 233, 1);
+}
+.flex .string-1 input:focus{
+  border: 1px solid rgba(166, 166, 166, 1);
+}
+.flex .string-1 input::placeholder{
+  font-size: 20px;
+  color: rgba(166, 166, 166, 1);
+  font-weight: 400;
+}
+
+.flex .string-1 .spisok{
+  width: 500px;
+  height: 68px;
+  background: rgba(249, 247, 244, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  outline: none;
+  font-size: 20px;
+  color: rgba(166, 166, 166, 1);
+
+  padding-left: 20px;
+  appearance: none;
+  background-position: right 20px center;
+  background-size: 20px;
+  background-image: url(./img/ic-dropdown.svg) ;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.flex .string-1 select:hover{
+  background: rgba(244, 240, 233, 1);
+  background-image: url(./img/ic-dropdown.svg) ;
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-size: 20px;
+}
+.flex .string-1 select:focus{
+  border: 1px solid rgba(166, 166, 166, 1);
+}
+.flex .string-1 select::placeholder{
+  font-size: 18px;
+  color: rgba(166, 166, 166, 1);
+  font-weight: 400;
+}
+.flex .string-1 select option{
+  color: black;
+}
+.flex .string-1 label{
+  position: relative;
+  top: -8px;
+  
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*Подразделение на второй див: email и номер телефона*/
+.flex .string-2{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 1030px;
+  height: 104px;
+  gap: 30px;
+  padding-left: 68px;
+  padding-bottom: 30px;
+}
+.flex .string-2 div input{
+  width: 480px;
+  height: 68px;
+  background: rgba(249, 247, 244, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  outline: none;
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+}
+.flex .string-2 input:hover{
+  background: rgba(244, 240, 233, 1);
+}
+.flex .string-2 input:focus{
+  border: 1px solid rgba(166, 166, 166, 1);
+}
+.flex .string-2 input::placeholder{
+  font-size: 20px;
+  color: rgba(166, 166, 166, 1);
+  font-weight: 400;
+}
+.flex .string-2 label{
+  position: relative;
+  top: -5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*Подразделение на третий див: дата от и до*/
+.flex .string-3{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 1030px;
+  height: 104px;
+  gap: 30px;
+  padding-left: 68px;
+  padding-bottom: 30px;
+}
+.flex .string-3 div input{
+  width: 480px;
+  height: 68px;
+  background: rgba(249, 247, 244, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  outline: none;
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+  cursor: pointer;
+  position: relative;
+  top: 7px;
+}
+.flex .string-3 input:hover{
+  background: rgba(244, 240, 233, 1);
+}
+.flex .string-3 input:focus{
+  border: 1px solid rgba(166, 166, 166, 1);
+}
+.flex .string-3 input::placeholder{
+  font-size: 21px;
+  color: rgba(166, 166, 166, 1);
+  font-weight: 400;
+}
+.flex .string-3 label{
+  position: relative;
+  top: -2px;
+  left: 2px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*Ввод данных: Комментарий*/
+.comment{
+  width: 1030px;
+  height: 188px;
+  margin: auto auto;
+}
+.comment #com{
+  width: 1010px;
+  height: 130px;
+  background: rgba(249, 247, 244, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  outline: none;
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+  padding-top: 20px;
+  resize: none;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+}
+.comment #com:hover{
+  background: rgba(244, 240, 233, 1);
+}
+.comment #com:focus{
+  border: 1px solid rgba(166, 166, 166, 1);
+}
+.comment label{
+  position: relative;
+  top: 2px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*Вам есть 18?*/
+.age{
+  padding: 30px 0;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  position: relative;
+  top: -5px;
+}
+.age input label{
+  position: relative;
+  top: -30px;
+}
+.age .eighteen{
+  position: relative;
+  top: 10px;
+  right: 7px;
+  font-size: 20px;
+}
+.age .yes{
+  margin-right: 25px;
+}
+.age label{
+position: relative;
+top: -8px;
+margin-left: 10px;
+font-size: 20px;
+}
+
+input[type="radio"] {
+  width: 26px;
+  height: 26px;
+  appearance: none;
+  border: 3px solid #000000;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  background: radial-gradient(circle, #000000 0%, #0d0d0d 40%, transparent 45%);
+}
+/*Кнопка лецензионного соглашения*/
+.sogl{
+  margin-left: 70px;
+  position: relative;
+  top: -15px;
+}
+.custom-checkbox {
+  display: none;
+}
+.checkmark {
+  width: 22px;
+  height: 22px;
+  border: 3px solid #000000;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.2s ease;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 7px;
+  top: 2px;
+  width: 7px;
+  height: 11px;
+  border: solid #000000;
+  border-width: 0 2.5px 2.5px 0;
+  transform: rotate(45deg);
+}
+.custom-checkbox:checked + .checkmark {
+  border-color: #000000;
+  background-color: transparent;
+}
+.custom-checkbox:checked + .checkmark::after {
+  display: block;
+}
+.text {
+  margin-left: 8px;
+  vertical-align: middle;
+  font-size: 16.7px;
+  color:rgba(166, 166, 166, 1);
+}
+.checkbox-wrapper {
+  display: inline-flex;
+  align-items: center;
+  cursor: default; 
+}
+.sogl a{
+  color: #000000;
+}
+.sogl a:hover{
+  text-decoration: underline;
+}
+.sogl a:active{
+  color: rgba(40, 101, 98, 1);
+}
+
+/*Кнопка найти тур*/
+.btn button{
+  width: 235px;
+  height: 60px;
+  display: inline-flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-left: 70px;
+  gap: 27px;
+  cursor: pointer;
+  position: relative;
+  top: 17px;
+}
+.btn .onebt{
+  background: rgba(40, 101, 98, 1);
+  border: none;
+  transition: all 300ms ease;
+}
+.btn .onebt:hover{
+  transform: scale(1.1);
+  background: rgba(59, 126, 123, 1);
+}
+.btn .onebt:active{
+  background: rgba(98, 127, 126, 1);
+}
+.btn a{
+  color:white ;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  top: 18px;
+  left: 68px;  
+}
+/*Кнопка сбросить*/
+.btn .twobt{
+  background: rgba(224, 240, 229, 1);
+  border: none;
+  transition: all 300ms ease;
+  position: relative;
+  left: -43px;
+}
+.btn .twobt:hover{
+  transform: scale(1.1);
+  background: rgba(241, 243, 242, 1);
+}
+.btn .twobt:active{
+  background: rgba(217, 223, 219, 1);
+}
+.btn .twobt a{
+  color: rgba(40, 101, 98, 1);
+}
+.sogl_for_little_maket{
+  display: none;
+  }
+
+@media (max-width: 1920px){
+.sogl_for_little_maket{
+    display: none;
+  }
+      body {
+        overflow-x: hidden;
+    }
+     .form{
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0 15px;
+      margin: auto auto;
+      max-width: 100%;
+      overflow-x: hidden;
+      overflow-y: hidden;
+}
+  form{
+  width:918px;
+  height: 966px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 50px;
+  
+}
+.form .zagolovok{
+  width: 458px;
+  height: 159px;
+  text-align: center;
+  margin: auto auto;
+  padding-top: 135px;
+  padding-bottom: 100px;
+ 
+}
+.form h2{
+  font-size: 59px;
+  font-weight: 700;
+}
+.form p{
+color: rgba(166, 166, 166, 1);
+font-size: 20px;
+font-weight: 400;
+padding-top: 32px;
+}
+/*Подразделение на первый див: Имя и Направление*/
+.flex .string-1{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 798px;
+  height: 104px;
+  gap: 20px;
+  padding-left: 59px;
+  padding-top: 71px;
+  padding-bottom: 30px;
+}
+
+.flex .string-1 div input{
+  width: 369px;
+  height: 68px;
+  background: rgba(249, 247, 244, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  outline: none;
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.flex .string-1 input:hover{
+  background: rgba(244, 240, 233, 1);
+}
+.flex .string-1 input:focus{
+  border: 1px solid rgba(166, 166, 166, 1);
+}
+.flex .string-1 input::placeholder{
+  font-size: 20px;
+  color: rgba(166, 166, 166, 1);
+  font-weight: 400;
+}
+.flex .string-1 select{
+  width: 100%;
+  max-width: 389px;
+  height: 68px;
+  background: rgba(249, 247, 244, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  outline: none;
+  font-size: 20px;
+  color: rgba(166, 166, 166, 1);
+  padding-left: 20px;
+  cursor: pointer;
+  background-image: url(./img/ic-dropdown.svg) ;
+  background-position: right 20px center;
+  background-size: 20px;
+}
+.flex .string-1 select:hover{
+  background: rgba(244, 240, 233, 1);
+  background-image: url(./img/ic-dropdown.svg) ;
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-size: 20px;
+}
+.flex .string-1 select:focus{
+  border: 1px solid rgba(166, 166, 166, 1);
+}
+.flex .string-1 select::placeholder{
+  font-size: 18px;
+  color: rgba(166, 166, 166, 1);
+  font-weight: 400;
+}
+.flex .string-1 select option{
+  color: black;
+}
+.flex .string-1 label{
+  position: relative;
+  top: -9px;
+  left: -1px;
+  font-size: 20px;
+  font-weight: 400;
+}
+#name_id{
+  margin-left: 3px;
+}
+/*Подразделение на второй див: email и номер телефона*/
+.flex .string-2{
+  display: inline-flex;
+  justify-content: space-between;
+  width:798px;
+  height: 104px;
+  gap: 20px;
+  padding-left: 58px;
+  padding-bottom: 30px;
+}
+.flex .string-2 div input{
+  width: 369px;
+  height: 68px;
+  background: rgba(249, 247, 244, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  outline: none;
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.flex .string-2 input:hover{
+  background: rgba(244, 240, 233, 1);
+}
+.flex .string-2 input:focus{
+  border: 1px solid rgba(166, 166, 166, 1);
+}
+.flex .string-2 input::placeholder{
+  font-size: 20px;
+  color: rgba(166, 166, 166, 1);
+  font-weight: 400;
+}
+.flex .string-2 label{
+  position: relative;
+  top: -6px;
+  font-size: 20px;
+  font-weight: 400;
+}
+#email_input_id{
+  margin-left: 2px;
+}
+/*Подразделение на третий див: дата от и до*/
+.flex .string-3{
+  display: inline-flex;
+  justify-content: space-between;
+  width:798px;
+  height: 104px;
+  gap: 20px;
+  padding-left: 58px;
+  padding-bottom: 30px;
+}
+
+.flex .string-3 div input{
+  width: 369px;
+  height: 68px;
+  background: rgba(249, 247, 244, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  outline: none;
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.flex .string-3 input:hover{
+  background: rgba(244, 240, 233, 1);
+}
+.flex .string-3 input:focus{
+  border: 1px solid rgba(166, 166, 166, 1);
+}
+.flex .string-3 input::placeholder{
+  font-size: 21px;
+  color: rgba(166, 166, 166, 1);
+  font-weight: 400;
+}
+.flex .string-3 label{
+  position: relative;
+  top: -3px;
+  left: 3px;
+  font-size: 20px;
+  font-weight: 400;
+}
+#date_before_id{
+  margin-left: -3px;
+}
+/*Ввод данных: Комментарий*/
+.comment{
+  width: 798px;
+  height: 188px;
+  margin: auto auto;
+}
+.comment #com{
+  width: 778px;
+  height: 132px;
+  background: rgba(249, 247, 244, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  outline: none;
+  margin-left: -1px;
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+  padding-top: 20px;
+  resize: none;
+  cursor: pointer;
+}
+.comment #com:hover{
+  background: rgba(244, 240, 233, 1);
+}
+.comment #com:focus{
+  border: 1px solid rgba(166, 166, 166, 1);
+}
+.comment label{
+  position: relative;
+  top: -0.6px;
+  font-size: 20px;
+  font-weight: 400;
+}
+/*Вам есть 18?*/
+.age{
+ padding: 40px 35px;
+ margin-left: 20px;
+ margin-bottom: 35px;
+}
+.age .eighteen{
+  position: relative;
+  top: -2px;
+  left: -5px;
+}
+.age label{
+  font-size: 20px;
+  font-weight: 400; 
+  margin-left: 10px;
+  position: relative;
+  top: -15px;
+}
+.age .yes{
+   position: relative;
+  left: -2px;
+}
+#radio_no_id{
+  position: relative;
+  left: -3.5px;
+}
+#no_label_id{
+   position: relative;
+  left: -6px;
+}
+input[type="radio"] {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  margin-left: 5px;
+  position: relative;
+  top: -10px;
+}
+
+input[type="radio"]:checked {
+  background: radial-gradient(circle, #000000 0%, #0d0d0d 40%, transparent 45%);
+}
+
+/*Кнопка лецензионного соглашения*/
+.sogl{
+  margin-left: 61px;
+  position: relative;
+  top: -59px;
+}
+.custom-checkbox {
+  display: none;
+}
+.checkmark {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000000;
+  border-radius: 3px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.2s ease;
+  vertical-align: middle;
+}
+.checkmark::after {
+  content: "";
+  display: none;
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 10px;
+  border: solid #000000;
+  border-width: 0 2.5px 2.5px 0;
+  transform: rotate(45deg);
+}
+.custom-checkbox:checked + .checkmark {
+  border-color: #000000;
+  background-color: transparent;
+}
+.custom-checkbox:checked + .checkmark::after {
+  display: block;
+}
+.text {
+  margin-left: -4px;
+  vertical-align: middle;
+  cursor: default; 
+  font-size: 16.8px;
+  color:rgba(166, 166, 166, 1);
+}
+.checkbox-wrapper {
+  display: inline-flex;
+  align-items: center;
+  cursor: default; 
+}
+.sogl a{
+  color: #000000;
+}
+.sogl a:hover{
+  text-decoration: underline;
+}
+.sogl a:active{
+  color: rgba(40, 101, 98, 1);
+}
+
+/*Кнопка найти тур*/
+.btn button{
+  width: 235px;
+  height: 59px;
+  display: inline-flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-left: 45px;
+  position: relative;
+  top: -50px;
+  cursor: pointer;
+}
+.btn{
+  margin-left: 15px;
+  margin-top: 24.5px;
+}
+.btn .onebt{
+  background: rgba(40, 101, 98, 1);
+  border: none;
+  transition: all 300ms ease;
+}
+.btn .onebt:hover{
+transform: scale(1.1);
+background: rgba(59, 126, 123, 1);
+}
+.btn .onebt:active{
+  background: rgba(98, 127, 126, 1);
+}
+.btn a{
+  color:white ;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  top: 18px;
+  left: 70px;
+}
+
+/*Кнопка сбросить*/
+.btn .twobt{
+  background: rgba(224, 240, 229, 1);
+  border: none;
+  transition: all 300ms ease;
+  position: relative;
+  left: -18px;
+  cursor: pointer;
+}
+.btn .twobt:hover{
+transform: scale(1.1);
+background: rgba(241, 243, 242, 1);
+}
+.btn .twobt:active{
+  background: rgba(217, 223, 219, 1);
+}
+.btn .twobt a{
+  color: rgba(40, 101, 98, 1);
+}
+}
+@media (max-width: 1324px){
+  /*Секция собери свой тур*/
+  body {
+        overflow-x: hidden;
+    }
+
+form{
+ width: 318px;
+ height: 1110px;
+ margin: auto auto;
+ background: rgba(255, 255, 255, 1);
+ border-radius: 30px;
+ position: relative;
+ left: -8px;
+ bottom: 120px;
+}
+.form{
+  margin: auto auto;
+  padding: 0 15px;   
+  margin-right: 0;
+  overflow-y: hidden;   
+  max-width: 100%;
+  overflow-x: hidden;
+  
+  margin-left: 0;
+}
+/*заголовок*/
+.form .zagolovok{
+  width: 318px;
+  height: 104px;
+  text-align: center;
+  margin: auto auto;
+  position: relative;
+  bottom: 62px;
+  left: -7px;
+}
+.form .zagolovok h2{
+  font-size: 36px;
+  font-weight: 700;
+}
+.form .zagolovok p{
+  max-width: 318px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(166, 166, 166, 1);
+  line-height: 142%;
+  position: relative;
+  top: -13px;
+  left: -26px;
+}
+
+/*Форма*/
+.flex{
+  width: 100%;
+  max-width: 318px;
+  position: relative;
+  top: -10px;
+}
+/*Строки*/
+  .string-1, .string-2,.string-3 {
+    flex-direction: column;
+    position: relative;
+    top: -5px;
+  }
+
+/*ИМЯ*/
+.flex .string_1 input,.flex  .string_2 select {
+  width: 100%;
+  height: 100%;
+  max-width: 256px;
+  max-height: 43px;
+  position: relative;
+  left: -80px;
+  top: -6px;
+ }
+   #enter_your_name{
+    width: 100%;
+    max-width: 270px;
+    font-size: 15px;
+    padding-left: 10px;
+   }
+
+  #enter_your_name::placeholder{
+  font-size: 16px;
+ }
+  .flex .string_1 label{
+    font-size: 16px;
+    position: relative;
+    top: -63px;
+    left: -42px;
+  }
+.flex .string-1 input:hover{
+   background: rgba(249, 247, 244, 1);
+   cursor: default;
+}
+.flex .string-1 input:focus{
+  border: none;
+}
+/*Направление*/
+ .flex  .string_2 select{
+  width: 100%;
+  height: 100%;
+  max-width: 278px;
+  max-height: 46px;
+  font-size: 16px;
+  position: relative;
+  left: -144px;
+  top: 30px;
+  }
+  #checkbox_list_id{
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  #checkbox_list_id::placeholder{
+    color: #999;
+    opacity: 1; 
+    text-indent: -10px; 
+  }
+  .flex  .string_2 label{
+    font-size: 16px;
+    position: relative;
+    left: -39px;
+    top: -29px;
+  }
+.flex .string-1 select:hover{
+  background: rgba(249, 247, 244, 1);
+  background-image: url(./img/ic-dropdown.svg) ;
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-size: 20px;
+  cursor: default;
+}
+.flex .string-1 select:focus{
+  border: none;
+}
+.string_2 select option{
+  font-size: 16px;
+}
+
+/*Email*/
+ .flex  .string_3 input{
+  width: 100%;
+  height: 100%;
+  max-width: 257px;
+  max-height: 44px;
+  margin-top: 66px;
+  position: relative;
+  left: -83px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  }
+ #email_id{
+   width: 100%;
+  max-width: 267px;
+  font-size: 16px;
+  padding-left: 10px;
+ }
+  #email_id::placeholder{
+    font-size: 16px;
+  }
+  .flex .string_3 label{
+    font-size: 16px;
+    position: relative;
+    left: -40px;
+    top: -53px;
+  }
+ 
+  /*Телефон*/
+  .flex  .string_4 input{
+  width: 100%;
+  height: 100%;
+  max-width: 267px;
+  max-height: 43px;
+  margin-top: 35px;
+  font-size: 14px;
+  padding-left: 10px;
+  position: relative;
+  left: -107px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  z-index: 2; 
+  }
+ #phone{
+  font-size: 15px;
+  padding-left: 10px;
+ }
+ #phone::placeholder{
+  font-size: 14.3px;
+ }
+.flex  .string_4 label{
+    font-size: 16px;
+    position: relative;
+    left: -37px;
+    top: -52px;
+    z-index: 1;
+    pointer-events: none; 
+  }
+  .flex .string-2 input:hover{
+    background: rgba(249, 247, 244, 1);
+    cursor: default;
+}
+.flex .string-2 input:focus{
+  border:none;
+}
+  /*Дата от*/
+.flex  .string_5 input{
+  width: 100%;
+  height: 100%;
+  max-width: 270px;
+  max-height: 43px;
+  margin-top: 138px;
+  position: relative;
+  left: -99px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  cursor: default;
+  }
+#date{
+  font-size: 17px;
+  padding-left: 10px;
+}
+#date::placeholder{
+  font-size: 17px;
+}
+.flex .string_5 label{
+    font-size: 16px;
+    position: relative;
+    left: -38px;
+    top: -50px;
+  }
+    /*Дата до*/
+  .flex  .string_6 input{
+  width: 100%;
+  height: 100%;
+  max-width: 271px;
+  max-height: 43px;
+  margin-top: 36px;
+  position: relative;
+  left: -99px;
+  border: 1px solid rgba(244, 240, 233, 1);
+  }
+.flex .string_6 label{
+    font-size: 16px;
+    position: relative;
+    left: -35px;
+    top: -50px;
+  }
+ #date2{
+  font-size: 17px;
+  padding-left: 10px;
+ }
+ #date2::placeholder{
+  font-size: 17px;
+ }
+  .flex .string-3 input:hover{
+   background: rgba(249, 247, 244, 1);
+   cursor: default;
+}
+.flex .string-3 input:focus{
+  border: none;
+}
+
+/*Комментарий*/
+form .comment textarea{
+  width: 100%;
+  height: 100%;
+  max-width: 278px;
+  max-height: 150px;
+  margin-top: 143px;
+  position: relative;
+  left: -88px;
+  cursor: none;
+  border: 1px solid rgba(244, 240, 233, 1);
+  box-sizing: border-box; 
+  transition: border-color 0.2s ease; 
+  }
+   .comment .text-com{
+    font-size: 16px;
+    position: relative;
+    left: 20px;
+    top: -135px;
+  }
+   form .comment textarea,.comment #com {
+     padding-left: 10px;
+     font-size: 16px;
+   }
+  .comment #com:focus{
+   border: 1px solid rgba(244, 240, 233, 1);
+   outline: none; 
+}
+.comment #com:hover{
+   background: rgba(249, 247, 244, 1);
+   cursor: default;
+}
+
+.flex input, .flex select, .flex #com, .flex label {
+  will-change: transform;
+  contain: layout style;
+  backface-visibility: hidden;
+}
+
+.flex input:focus, .flex select:focus, .flex textarea:focus {
+  isolation: isolate;
+  transform: translateZ(0);
+  outline-offset: 2px;
+  outline-width: 2px;
+}
+
+.flex input, .flex select, .flex textarea {
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: rgba(244, 240, 233, 1) !important;
+}
+
+  /*Подтверждение 18 лет*/
+  .age{
+    position: relative;
+    top: 90px;
+    left: -40px;
+  }
+.age .eighteen{
+  font-size: 16px;
+  position: relative;
+  top: -3px;
+  left: -2px;
+}
+ .age .yes{
+  margin-right: 22px;
+}
+.age label{
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 7.6px;
+  position: relative;
+}
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  outline: none;
+  cursor: default;
+}
+input[type="radio"]:checked {
+  background: radial-gradient(circle, #000000 0%, #0d0d0d 36%, transparent 45%);
+}
+  /*Лицензионное соглашение*/
+  .sogl_for_big_maket{
+    display: none;
+  }
+.sogl_for_little_maket{
+    display: unset;
+  }
+ .sogl{
+    position: relative;
+    width: 100%;
+    max-width: 278px;
+    top: 35px;
+    left: -40px;
+}
+.custom-checkbox {
+    display: none;
+}
+.checkmark {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #000000;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.2s ease;
+    vertical-align: middle;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+.checkmark::after {
+    content: "";
+    display: none;
+    left: 5px;
+    top: 1px;
+    width: 4px;
+    height: 8px;
+    border: solid #000000;
+    border-width: 0 1.5px 1.5px 0;
+    transform: rotate(45deg);
+}
+.sogl i{
+    font-style: normal;
+}
+
+.custom-checkbox:checked ~ .checkmark::after, .custom-checkbox:checked + .checkmark::after {
+    display: block;
+}
+.text {
+    margin-right:10px;
+    vertical-align: middle;
+    cursor: default;
+    font-size: 16px;
+    color:rgba(166, 166, 166, 1);
+    line-height: 142%;
+}
+.checkbox-wrapper {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+}
+.sogl a{
+  color: #000000;
+  cursor: default;
+}
+.sogl a:active{
+  color: rgba(40, 101, 98, 1);
+}
+.sogl a:hover{
+  text-decoration: none;
+}
+
+  /*Кнопки*/
+    .btn{
+    position: relative;
+    top: 60px;
+    left: -7px;
+    display: inline-flex;
+  }
+ .btn button{
+  width: 134px;
+  height: 47px;
+  display: inline-flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-left: 23px;
+  position: relative;
+  top: -20px;
+  cursor: default;
+}
+.btn .onebt{
+  background: rgba(40, 101, 98, 1);
+  border: none;
+  position: relative;
+  left: -10px;
+}
+.btn .onebt .found{
+  margin-left: -3px;
+  margin-top: -2px;
+}
+.btn .twobt{
+  position: relative;
+  left: -25px;
+  cursor: default;
+}
+.btn .onebt:active{
+  background: rgba(98, 127, 126, 1);
+}
+.btn a{
+  color:white ;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: 16px;
+  left: 32px;
+   cursor: default;
+}
+.btn .onebt:hover{
+transform: none;
+background: rgba(40, 101, 98, 1);
+}
+.btn .twobt:hover{
+transform:none;
+background:rgba(224, 240, 229, 1) ;
+}
+html {
+    overflow-x: hidden ;
+    width: 100% ;
+}
+body {
+    overflow-x: clip;
+    position: relative ;
+    width: 100%;
+    max-width: 100vw;
+}
+  }
+
+/*!Секция Отзывы наших путешественников*/
+.otzav{
+  width: 1170px;
+  height: 1005px;
+  margin: auto auto;
+  position: relative;
+  top: -22px;
+}
+.otzav .zagolovok{
+  width: 529px;
+  height: 232px;
+  margin: auto auto;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 100px;
+}
+.otzav .zagolovok h2{
+  font-size: 59px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px
+}
+.otzav .zagolovok p{
+  width: 409px;
+  height: 56px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(166, 166, 166, 1);
+  text-align: center;
+  margin:auto auto;
+  line-height: 142%;
+  position: relative;
+  top: -7px;
+}
+.otzav .flex{
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.otzav .flex .maria-pavel{
+  width: 570px;
+  height: 670px;
+  background: rgba(244, 240, 233, 1);
+  border-radius: 50px;
+  margin: auto auto;
+}
+.otzav .flex .maria-pavel .abzac{
+  width: 490px;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 122%;
+  margin-top: 37px;
+  margin-left: 40px;
+}
+
+/*Табличка марии*/
+.otzav .flex .maria-pavel .puteshestvennik-1{
+  width: 490px;
+  margin-top: 270px;
+  margin-left: 40px;
+}
+.otzav .flex .maria-pavel .puteshestvennik-1 .mar{
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  position: relative;
+  top: -5px;
+}
+
+.otzav .flex .maria-pavel .puteshestvennik-1 .mari{
+  color: rgba(166, 166, 166, 1);
+  font-size: 17px;
+  font-weight: 400;
+}
+.otzav .flex .maria-pavel .puteshestvennik-1 .girl-pictr{
+  margin-left: 415px;
+  position: relative;
+  top: -75px;
+}
+
+/*Табличка павла*/
+.otzav .flex .maria-pavel .puteshestvennik-2{
+  width: 490px;
+  margin-left: 40px;
+}
+.otzav .flex .maria-pavel .puteshestvennik-2 .pavlic{
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 70px;
+}
+.otzav .flex .maria-pavel .puteshestvennik-2 p{
+  color: rgba(166, 166, 166, 1);
+  font-size: 17px;
+  font-weight: 400;
+}
+.otzav .flex .maria-pavel .puteshestvennik-2 img{
+  margin-left: 415px;
+  position: relative;
+  top: -73.8px;
+}
+@media (max-width: 1920px){
+  /*!Секция Отзывы наших путешественников*/
+.otzav{
+  width: 1024px;
+  height: 1173px;
+  margin: auto auto;
+}
+.otzav .zagolovok{
+  width: 529px;
+  height: 232px;
+  margin: auto auto;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 96px;  
+}
+.otzav .zagolovok h2{
+  font-size: 59px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 39px
+}
+.otzav .zagolovok p{
+  width: 409px;
+  height: 56px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(166, 166, 166, 1);
+  text-align: center;
+  margin:auto auto;
+}
+.otzav .flex{
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 18px;
+  margin: auto auto;
+  margin-left: 53px;
+}
+.otzav .flex .maria-pavel{
+  width: 450px;
+  height: 841px;
+  background: rgba(244, 240, 233, 1);
+  border-radius: 50px;
+  margin: auto auto;
+}
+.otzav .flex .maria-pavel .abzac{
+  width: 370px;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 122%;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+/*Табличка марии*/
+.otzav .flex .maria-pavel .puteshestvennik-1{
+  width: 370px;
+  margin-top: 380px;
+  margin-left: 40px;
+}
+.otzav .flex .maria-pavel .puteshestvennik-1 .mar{
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  position: relative;
+  top: 0.1px;
+}
+.otzav .flex .maria-pavel .puteshestvennik-1 .mari{
+  color: rgba(166, 166, 166, 1);
+  font-size: 17px;
+  font-weight: 400;
+}
+.otzav .flex .maria-pavel .puteshestvennik-1 .girl-pictr{
+  margin-left: 295px;
+  position: relative;
+  top: -70px;
+}
+
+/*Табличка павла*/
+.otzav .flex .maria-pavel .puteshestvennik-2{
+  width: 370px;
+  margin-left: 40px;
+}
+.otzav .flex .maria-pavel .puteshestvennik-2 .pavlic{
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 70px;
+}
+.otzav .flex .maria-pavel .puteshestvennik-2 p{
+  color: rgba(166, 166, 166, 1);
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 11px;
+}
+.otzav .flex .maria-pavel .puteshestvennik-2 img{
+  margin-left: 295px;
+  position: relative;
+  top: -73px;
+}
+}
+@media (max-width: 1324px){
+  /*!Секция Отзывы наших путешественников*/
+.otzav{
+  width: 360px;
+  height: 1210px;
+  margin: auto auto;
+}
+.otzav .zagolovok{
+  width: 100%;
+  max-width: 360px;
+  height: 142px;
+  margin: auto auto;
+  text-align: center;
+  margin-bottom: 65px;
+  position: relative;
+  top: -23px;
+}
+.otzav .zagolovok h2{
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+  line-height: 112%;
+}
+.otzav .zagolovok p{
+  width: 318px;
+  height: 46px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(166, 166, 166, 1);
+  text-align: center;
+  line-height: 142%;
+}
+
+.otzav .flex {
+  margin: auto auto;
+  width:100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+  margin-top: -28px;
+}
+.otzav .flex .maria-pavel{
+  max-width: 318px;
+  max-height: 408px;
+  width: 100%;
+  height: 100%;
+  background: rgba(244, 240, 233, 1);
+  border-radius: 20px;
+  margin: auto auto;
+}
+.otzav .flex .maria-pavel .abzac{
+  max-width: 278px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 142%;
+  margin-left: 20px;
+ margin-top: 20px;
+}
+
+/*Табличка марии*/
+.otzav .flex .maria-pavel .puteshestvennik-1{
+  width: 278px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.otzav .flex .maria-pavel .puteshestvennik-1 .mar{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.otzav .flex .maria-pavel .puteshestvennik-1 .mari{
+  color: rgba(166, 166, 166, 1);
+  font-size: 15.6px;
+  font-weight: 400;
+  line-height: 142%;
+}
+.otzav .flex .maria-pavel .puteshestvennik-1 .girl-pictr{
+  margin-left: 203px;
+  position: relative;
+  top: -76px;
+}
+
+/*Табличка павла*/
+.otzav .flex .int{
+  max-width: 318px;
+  max-height: 570px;
+  width: 100%;
+  height: 100%;
+  background: rgba(244, 240, 233, 1);
+  border-radius: 20px;
+  margin: auto auto;
+}
+.otzav .flex .maria-pavel .puteshestvennik-2{
+  width: 278px;
+  margin-left: 20px;
+  margin-top: -11px
+}
+.otzav .flex .maria-pavel .puteshestvennik-2 .pavlic{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.otzav .flex .maria-pavel .puteshestvennik-2 p{
+  color: rgba(166, 166, 166, 1);
+  font-size: 15.6px;
+  font-weight: 400;
+}
+.otzav .flex .maria-pavel .puteshestvennik-2 img{
+  margin-left: 203px;
+  position: relative;
+  top: -74px;
+}
+
+}
+/*Секция с картинками без контейнера*/
+.imges{
+  width: 1920px;
+  height: 1222px;
+  margin: auto auto;
+  position: relative;
+  top: -50px;
+}
+.imges .zagolovok{
+  width: 723px;
+  height: 159px;
+  margin: auto auto;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 100px;
+}
+.imges .zagolovok h2{
+  font-size: 59px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 35px
+}
+.imges .zagolovok p{
+  width: 409px;
+  height: 56px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(166, 166, 166, 1);
+  text-align: center;
+  margin:auto auto;
+  line-height: 142%;
+}
+.imges .section{
+  width: 1920px;
+  height: 963px;
+  margin: auto auto;
+  position: relative;
+  left: 35px;
+  
+}
+.imges .section .picture img{
+  margin-right: 20px;
+}
+.maket_3{
+  margin-left: 5px;
+}
+.trafic_picture_4{
+  margin-left: 10px;
+}
+#maket_2_id{
+  margin-left: 7px;
+}
+.trafic_picture_8{
+  margin-left: 5px;
+}
+.picture .picture_2{
+  position: relative;
+  left: -5px;
+}
+.picture .picture_3{
+  position: relative;
+  top: -10px;
+}
+@media (max-width: 1920px){
+  /*Секция с картинками без контейнера*/
+  .maket_2{
+    display: none;
+  }
+.imges{
+  max-width: 1024px;
+  width: 100%;
+  height: 1222px;
+  margin: auto auto;
+}
+.imges .zagolovok{
+  width: 723px;
+  height: 159px;
+  margin: auto auto;
+  text-align: center;
+  margin-top: 161px;
+  margin-bottom: 100px;
+}
+.imges .zagolovok h2{
+  font-size: 59px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 31px
+}
+.imges .zagolovok p{
+  width: 408px;
+  height: 56px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(166, 166, 166, 1);
+  text-align: center;
+  margin:auto auto;
+  line-height: 142%;
+}
+.imges .section{
+  max-width: 1024px;
+  width: 100%;
+  height: 963px;
+  height: 100%;
+  margin: auto auto;
+  position: relative;
+  left: 15px;
+}
+.imges .section .picture .picture_1 img{
+  margin-right: 10px;
+  width: 316px;
+  height: 300px;
+   background-size: cover;
+   border-radius: 50px;
+}
+.imges .section .picture .picture_2 img{
+ object-fit: cover;
+  width: 231px;
+  height: 301px;
+  border-radius: 50px;
+  margin-right: 19px;
+}
+.imges .section .picture .picture_3 img{
+  margin-right: 20px;
+  width: 316px;
+  height: 300px;
+   object-fit: cover;
+   border-radius: 50px;
+}
+}
+@media (max-width: 1324px){
+  /*Секция с картинками без контейнера*/
+  .maket_2{
+    display: none;
+  }
+   .maket_3{
+    display: none;
+  }
+.imges{
+  max-width: 360px;
+  width: 100%;
+  height: 558px;
+  margin: auto auto;
+}
+.imges .zagolovok{
+  width: 360px;
+  height: 142px;
+  margin: auto auto;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 70px;
+  position: relative;
+  left: 30px;
+}
+.imges .zagolovok h2{
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 18px;
+  margin-right: 57px;
+  line-height: 112%;
+}
+.imges .zagolovok p{
+  width: 318px;
+  height: 46px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 142%;
+  color: rgba(166, 166, 166, 1);
+  text-align: center;
+  line-height: 142%;
+  margin:auto auto;
+  margin-right: 57px;
+  position: relative;
+  left: -9px;
+}
+.imges .section{
+  width: 360px;
+  height: 366px;
+  margin: auto auto;
+
+  position: relative;
+  top: -20px;
+}
+.imges .section .picture .picture_1 img{
+  margin-right: 10px;
+  width: 150px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.picture_1_air{
+  position: relative;
+  left: 6px;
+}
+
+.imges .section .picture .picture_2 img{
+  object-fit: cover;
+  margin-bottom: 18px;
+  width: 99.33px;
+  height: 110px;
+  border-radius: 20px;
+  margin-right: 5px;
+  position: relative;
+  top: -15px;
+  left: 10px;
+}
+.imges .section .picture .picture_3 img{
+  margin-right: 10px;
+  width: 150px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 20px;
+  position: relative;
+  top: -40px;
+  left: 7px;
+}
+}
+
+/*Секция сo Стамбулом*/
+.stambul{
+  width: 1170px;
+  height: 2060px;
+  margin: auto auto;
+  position: relative;
+  top: -130px;
+}
+.stambul .zagolovok{
+  width: 615px;
+  height: 159px;
+  margin: auto auto;
+  text-align: center;
+  margin-top: 187px;
+  margin-bottom: 130px;
+  position: relative;
+  top: 30px;
+}
+.stambul .zagolovok h2{
+  font-size: 59px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px
+}
+.stambul .zagolovok p{
+  width: 409px;
+  height: 56px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(166, 166, 166, 1);
+  text-align: center;
+  margin:auto auto;
+  line-height: 142%;
+}
+.stambul .cards_stambul{
+  width: 1170px;
+  height: 1801px;
+  margin: auto auto;
+}
+/* Картинки */
+.cards_1, .cards_2{
+  margin-bottom: 50px;
+}
+.cards_1, .cards_2, .cards_3{
+    width: 1170px;
+    height: 567px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.cards_1 img, .cards_2 img, .cards_3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+    display: block;
+    transition: transform 300ms ease;
+    cursor: pointer;
+}
+/* темный градиент на картинках */
+.cards_1::after, .cards_2::after, .cards_3::after{
+     width: 100%;
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+/* анимация*/
+.cards_1:hover img, .cards_2:hover img, .cards_3:hover img {
+    transform: scale(1.2);
+}
+
+/* надписи */
+.cards_1 .texts, .cards_2 .texts, .cards_3 .texts{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 554px;
+    color: white;
+    z-index: 2;
+}
+.cards_1 .texts h3, .cards_2 .texts h3, .cards_3 .texts h3{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 122%;
+}
+.cards_1 .texts p, .cards_2 .texts p, .cards_3 .texts p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 37px;
+    line-height: 142%;
+}
+.cards_1 .texts p{
+  margin-bottom: 25px;
+}
+.cards_1 .texts nav{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 142%;
+  margin-left: 30px;
+}
+
+/* кнопка*/
+.cards_1 button, .cards_2 button, .cards_3 button{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    width: 199px;
+    height: 12px;
+    color: white;
+    padding: 25px 10px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+}
+
+.cards_1 button img, .cards_2 button img, .cards_3 button img{
+    width: 22px;
+    height: 15px;
+    margin-left: 15px;
+}
+.cards_1:hover button , .cards_2:hover button, .cards_3:hover button{
+    background: #286562;
+}
+.cards_1:active  button, .cards_2:active button, .cards_3:active button{
+    background: #EFA501;
+}
+/*мессенджеры*/
+.cards_1 .button, .cards_2 .button, .cards_3 .button{
+  position: absolute;
+  left: 800px;
+  top: 480px;
+  display: flex;
+  justify-content: space-between;
+  width: 310px;
+}
+.cards_1 a, .cards_2 a, .cards_3 a{
+  color: white;
+  font-size: 20px;
+}
+.cards_1 a:hover, .cards_2 a:hover, .cards_3 a:hover{
+  text-decoration: underline;
+}
+.cards_1 a:active, .cards_2 a:active, .cards_3 a:active{
+  color: rgba(239, 165, 1, 1);
+}
+#telegram_mesege{
+  position: relative;
+  left: -22px;
+}
+#facebook_mesendg{
+  position: relative;
+  left: -12px;
+}
+@media (max-width: 1920px){
+  /*Секция с Стамбулом*/
+.stambul{
+  width: 1024px;
+  height: 2060px;
+  margin: auto auto;
+}
+.stambul .zagolovok{
+  width: 615px;
+  height: 159px;
+  margin: auto auto;
+  text-align: center;
+  margin-top: 185px;
+  margin-bottom: 130px;
+}
+.stambul .zagolovok h2{
+  font-size: 59px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px
+}
+.stambul .zagolovok p{
+  width: 409px;
+  height: 56px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(166, 166, 166, 1);
+  text-align: center;
+  margin:auto auto;
+}
+.stambul .cards_stambul{
+  width: 1024px;
+  height: 1801px;
+  margin: auto auto;
+  position: relative;
+  left: 53px;
+}
+/*Картинки*/
+.cards_1, .cards_2{
+  margin-bottom: 50px;
+}
+.cards_1, .cards_2, .cards_3{
+    width: 918px;
+    height: 567px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.cards_1 img, .cards_2 img, .cards_3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+    display: block;
+    transition: transform 300ms ease;
+    cursor: pointer;
+}
+/* темный градиент на картинках */
+.cards_1::after, .cards_2::after, .cards_3::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+/* анимация*/
+.cards_1:hover img, .cards_2:hover img, .cards_3:hover img {
+    transform: scale(1.2);
+}
+/* надписи */
+.cards_1 .texts, .cards_2 .texts, .cards_3 .texts{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 554px;
+    color: white;
+    z-index: 2;
+}
+.cards_1 .texts h3, .cards_2 .texts h3, .cards_3 .texts h3{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 122%;
+}
+.cards_1 .texts p, .cards_2 .texts p, .cards_3 .texts p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 37px;
+    line-height: 142%;
+}
+.cards_1 .texts p{
+  margin-bottom: 25px;
+}
+.cards_1 .texts nav{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 142%;
+  margin-left: 30px;
+}
+/* кнопка*/
+.cards_1 button, .cards_2 button, .cards_3 button{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    width: 199px;
+    height: 12px;
+    color: white;
+    padding: 25px 10px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+}
+.cards_1 button img, .cards_2 button img, .cards_3 button img{
+    width: 22px;
+    height: 15px;
+    margin-left: 15px;
+}
+.cards_1:hover button , .cards_2:hover button, .cards_3:hover button{
+    background: #286562;
+}
+.cards_1:active  button, .cards_2:active button, .cards_3:active button{
+    background: #EFA501;
+}
+
+/*мессенджеры*/
+.cards_1 .button, .cards_2 .button, .cards_3 .button{
+  position: absolute;
+  left: 550px;
+  top: 480px;
+  display: flex;
+  justify-content: space-between;
+  width: 311px;
+}
+.cards_1 a, .cards_2 a, .cards_3 a{
+  color: white;
+  font-size: 20px;
+}
+.cards_1 a:hover, .cards_2 a:hover, .cards_3 a:hover{
+  text-decoration: underline;
+}
+.cards_1 a:active, .cards_2 a:active, .cards_3 a:active{
+  color: rgba(239, 165, 1, 1);
+}
+}
+@media (max-width: 1324px){
+  /*Секция с Стамбулом*/
+.stambul{
+  max-width: 360px;
+  width: 100%;
+  height: 1597px;
+  margin: auto auto;
+}
+.stambul .zagolovok{
+  width: 319px;
+  height: 142px;
+  margin: auto auto;
+  text-align: center;
+  margin-top: 125px;
+  margin-bottom: 110px;
+}
+.stambul .zagolovok h2{
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 18px;
+  line-height: 112%;
+}
+.stambul .zagolovok p{
+  width: 319px;
+  height: 46px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(166, 166, 166, 1);
+  text-align: center;
+  margin:auto auto;
+  line-height: 142%;
+}
+.stambul .cards_stambul{
+  width: 318px;
+  height: 1405px;
+  margin: auto auto;
+  position: relative;
+  left: -1px;
+  top: -30px;
+}
+/*Картинки*/
+.cards_1, .cards_2{
+  margin-bottom: 20px;
+}
+.cards_1, .cards_2, .cards_3{
+    width: 318px;
+    height: 455px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.cards_1 img, .cards_2 img, .cards_3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    display: block;
+    cursor: default;
+}
+/* темный градиент на картинках */
+.cards_1::after, .cards_2::after, .cards_3::after{
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    border-radius: 20px;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%);
+    z-index: 1;
+}
+/* надписи */
+.cards_1 .texts, .cards_2 .texts, .cards_3 .texts{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 263px;
+    color: white;
+    z-index: 2;
+}
+.cards_1 .texts h3, .cards_2 .texts h3, .cards_3 .texts h3{
+    font-size: 24px;
+    font-weight: 700;
+    width: 150px;
+    line-height: 120%;
+    letter-spacing: 4%;
+    margin: 0;
+}
+.cards_1 .texts p, .cards_2 .texts p, .cards_3 .texts p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 17px;
+    line-height: 142%;
+}
+.cards_1 .texts p{
+  margin-bottom: 25px;
+}
+  .cards_1 .texts nav{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 142%;
+  margin-left: 25px;
+}
+/* кнопка*/
+.cards_1 button, .cards_2 button, .cards_3 button{
+    position: absolute;
+    bottom: 28px;
+    left: 16px;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 15.4px;
+    font-weight: 700;
+    width: 150px;
+    height: 12px;
+    color: white;
+    padding: 15px 35px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+    cursor: default;
+}
+.cards_1 button img, .cards_2 button img, .cards_3 button img{
+    width: 22px;
+    height: 15px;
+    margin-left: 15px;  
+}
+
+/* анимация*/
+.cards_1:hover img, .cards_2:hover img, .cards_3:hover img {
+    transform: none;
+}
+.cards_1:hover button , .cards_2:hover button, .cards_3:hover button{
+    background: none;
+}
+.cards_1:active  button, .cards_2:active button, .cards_3:active button{
+    background: none;
+}
+}
+
+/*Последняя секция перед футером*/
+.mini{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  position: relative;
+  top: -120px;
+}
+.mini img{
+padding-top: 150px;
+margin-left: 240px;
+}
+.mini .nadpisi{
+padding-top: 257px;
+padding-right: 240px;
+}
+.mini .nadpisi h3{
+  font-size: 35px;
+  font-weight: 500;
+  width: 370px;
+  padding-bottom: 25px;
+}
+.mini .nadpisi p{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(166, 166, 166, 1);
+  width: 364px;
+}
+.mini .nadpisi p a{
+  color: black;
+}
+.mini .nadpisi p a:hover{
+  text-decoration: underline;
+}
+.mini .nadpisi p a:active{
+  color: rgba(40, 101, 98, 1);
+}
+@media (max-width: 1920px){
+  /*Последняя секция перед футером*/
+.mini{
+  width: 100%;
+  max-width: 771px; 
+  margin: 0 auto; 
+  padding: 0 20px; 
+  box-sizing: border-box;
+  position: relative;
+  left: -60px;
+}
+.mini img{
+padding-top: 154px;
+margin: auto auto;
+position: relative;
+left: 40px;
+}
+.mini .nadpisi{
+  padding-top: 150px;
+  width: 371px;
+  margin: auto auto;
+  position: relative;
+  left: 70px;
+}
+.mini .nadpisi h3{
+  font-size: 35px;
+  font-weight: 500;
+  width: 370px;
+  padding-bottom: 25px;
+}
+.mini .nadpisi p{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(166, 166, 166, 1);
+  width: 364px;
+}
+.mini .nadpisi p a{
+  color: black;
+}
+.mini .nadpisi p a:hover{
+  text-decoration: underline;
+}
+.mini .nadpisi p a:active{
+  color: rgba(40, 101, 98, 1);
+}
+
+}
+@media (max-width: 1324px){
+  /*Последняя секция перед футером*/
+.mini{
+  width: 100%;
+  max-width: 360px; 
+  margin: 0 auto; 
+  padding: 0 20px; 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+}
+.mini img{
+padding-top: 96px;
+width: 100%;
+height: 100%;
+max-width: 130px;
+max-height: 133px;
+position: relative;
+left: 60px;
+
+}
+.mini .nadpisi{
+padding-top: 10px;
+max-width: 291px;
+width: 100%;
+}
+.mini .nadpisi h3{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  width: 291px;
+  padding-bottom: 20px;
+  line-height: 120%;
+  position: relative;
+  left: 5px;
+}
+.mini .nadpisi p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(166, 166, 166, 1);
+  width: 291px;
+  text-align: center;
+  line-height: 142%;
+  margin-bottom: 50px;
+  cursor: default;
+  margin-left: 5px;
+}
+.mini .nadpisi p a{
+  color: black;
+  cursor: default;
+}
+.mini .nadpisi p a:active{
+  color: rgba(40, 101, 98, 1);
+}
+.mini .nadpisi p a:hover{
+  text-decoration: none;
+}
+}
+
+/*футер*/
+.footer{
+  width: 100%;
+  max-width: 1920px;
+  height: 88px;
+  background: rgba(244, 240, 233, 1);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -83px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+}
+.footer p{
+  color: rgba(166, 166, 166, 1);
+  font-size: 20px;
+  font-weight: 400;
+  padding-top:33px ;
+  margin-right: 950px;
+}
+  .mesndg {
+    width: 408px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: -25px;
+    left: 380px;
+  }
+
+.mesndg a{
+  font-size: 20px;
+}
+.mesndg .vk-link {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    color: #000;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+.mesndg .vk-link:hover .vk-text {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+.mesndg .vk-link:active .vk-text {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    color: rgba(239, 165, 1, 1);
+}
+.vk-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.vk-text {
+    transition: color 0.2s;
+    margin-right: 20px;
+}
+
+@media (max-width: 1920px){
+  /*футер*/
+.footer{
+  width: 100%;
+  height: 100%;
+  max-width: 1024px;
+  height: 88px;
+  background: rgba(244, 240, 233, 1);
+  margin: 0 auto;
+  padding: 0 20px; 
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+
+.footer p{
+  color: rgba(166, 166, 166, 1);
+  font-size: 20px;
+  font-weight: 400;
+  padding-top:34px ;
+  padding-left: 260px;
+  width: 222px;
+}
+
+.footer .mesndg {
+  padding-left: 620px;
+  position: relative;
+  top: -24px;
+  left: 740px;
+}
+
+.footer .mesndg a{
+  color: black;
+  position: relative;
+  top: -5px;
+  left: -800px;
+}
+.mesndg .vk-link:hover .vk-text {
+    text-decoration: none;
+    text-decoration-thickness: none;
+    text-underline-offset: none;
+}
+
+.mesndg .vk-link:active .vk-text {
+  text-decoration: none;
+  color: none;
+   text-decoration-thickness: none;
+  text-underline-offset: none;
+  
+}
+.footer .mesndg a span {
+  border-bottom: 1px solid transparent; 
+  padding-bottom: 1px; 
+  transition: all 0.2s ease;
+}
+
+.footer .mesndg a span:hover{
+  border-bottom: 1px solid black;
+}
+
+.footer .mesndg a span:active{
+  color: rgba(239, 165, 1, 1);
+  border-bottom: 1px solid rgba(239, 165, 1, 1);
+}
+}
+@media (max-width: 1324px){
+  /*футер*/
+  .footer{
+  width: 100%;
+  height: 100%;
+  max-width: 360px;
+  max-height: 98px;
+  background: rgba(244, 240, 233, 1);
+  margin: 0 auto; 
+  padding: 0 20px;  
+  box-sizing: border-box;
+  margin-top: -89px;
+}
+.footer p{
+  color: rgba(166, 166, 166, 1);
+  font-size: 16.3px;
+  text-align: center;
+  font-weight: 400;
+  padding-top:25px;
+  position: relative;
+  left: 346px;
+}
+.footer .mesndg {
+    width: 313px;
+    padding-top: 30px;
+    padding-left: 15px;
+    margin-left: 70px;
+    margin-top: 10px;
+    display: flex;
+    gap: 5px; 
+}
+.footer .mesndg a {
+    font-size: 16px;
+    line-height: 142%;
+    color: black;
+    cursor: default;
+    text-decoration: none;
+    border-bottom: none;
+}
+.footer .mesndg a:hover {
+    text-decoration: none;
+    border-bottom: none;
+}
+.footer .mesndg a:active {
+    text-decoration: none;
+    border-bottom: none;
+}
+.footer .mesndg a:focus {
+    text-decoration: none;
+    border-bottom: none; 
+    outline: none;
+}
+
+.footer .mesndg a span {
+    text-decoration: none;
+    border-bottom: none !important;
+}
+.footer .mesndg a span:active  {
+    color: rgba(239, 165, 1, 1);
+    border-bottom: 1px solid rgba(239, 165, 1, 1) !important;
+}
+}
